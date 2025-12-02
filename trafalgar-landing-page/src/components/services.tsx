@@ -59,6 +59,7 @@ const Services = () => {
             alt=""
             className="absolute left-0 top-[220px]"
           />
+          <img src="/element2.png" alt="" className="absolute right-84 bottom-110"/>
           <div className="flex justify-center relative flex-wrap gap-[34px]">
             {/* cards */}
             {cardItems.map((item) => (
