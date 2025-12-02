@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <div className="relative">
+    <section className="relative" aria-label="Hero section">
       <img src="/element.png" alt="" className="absolute top-0 left-0" />
       <div className=" w-full max-w-[1217px] mx-auto px-6 mt-[84px]">
-        <main className="flex justify-between items-center">
+        <div className="flex justify-between items-center">
           <div className="w-[445px] h-[338px] font-mulish">
             <h1 className="text-5xl font-bold leading-14 tracking-normal">
               Virtual healthcare for you
@@ -14,16 +14,19 @@ const Hero = () => {
               <br />
               for everyone
             </p>
-            <button className="w-[200px] h-14 flex items-center justify-center rounded-[55px] bg-[#458FF6] text-white font-bold text-[18px] leading-[60px] tracking-normal mt-[45px] hover:bg-[#367CE2] transition-colors duration-200">
+            <a
+              href="#"
+              className="w-[200px] h-14 flex items-center justify-center rounded-[55px] bg-[#458FF6] text-white font-bold text-[18px] leading-[60px] tracking-normal mt-[45px] hover:bg-[#367CE2] transition-colors duration-200"
+            >
               Consult today
-            </button>
+            </a>
           </div>
           <div className="w-[693px] h-[598px]">
-            <img src="/hero.png" alt="" />
+            <img src="/hero.png" alt="Illustration of virtual healthcare" />
           </div>
-        </main>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
