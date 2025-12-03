@@ -32,8 +32,7 @@ const Services = () => {
     },
     {
       title: "Tracking",
-      description:
-        "Track and save your medical history and health data",
+      description: "Track and save your medical history and health data",
       icon: "/tracking.png",
     },
   ];
@@ -59,7 +58,11 @@ const Services = () => {
             alt=""
             className="absolute left-0 top-[220px]"
           />
-          <img src="/element2.png" alt="" className="absolute right-84 bottom-110"/>
+          <img
+            src="/element2.png"
+            alt=""
+            className="absolute right-84 bottom-110"
+          />
           <div className="flex justify-center relative flex-wrap gap-[34px]">
             {/* cards */}
             {cardItems.map((item) => (
@@ -67,7 +70,9 @@ const Services = () => {
                 key={item.title}
                 className="w-[350px] h-[354px] rounded-[20px] shadow-[10px_40px_50px_0px_#E5E9F666] py-[54px] pl-[37px] bg-white"
               >
-                <img src={item.icon} alt="" className="" />
+                <div className="h-[95px]">
+                  <img src={item.icon} alt="" className="" />
+                </div>
                 <h3 className="font-mulish font-bold text-2xl leading-14 tracking-normal mt-6">
                   {item.title}
                 </h3>
@@ -79,7 +84,9 @@ const Services = () => {
           </div>
         </div>
         <button className="w-[200px] h-14 rounded-[55px] border-[1.4px] border-[#458FF6] text-[#458FF6] flex items-center justify-center mx-auto mt-[72px] hover:bg-[#458FF6] hover:text-white transition-colors duration-200">
-          <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal">Learn more</span>
+          <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal">
+            Learn more
+          </span>
         </button>
       </div>
     </section>
