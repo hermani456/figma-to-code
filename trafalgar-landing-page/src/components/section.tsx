@@ -13,8 +13,8 @@ const Section = () => {
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
           </p>
-          <button className="w-[200px] h-14 rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center hover:bg-[#458FF6] hover:text-white transition-colors duration-200">
-            <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal text-[#458FF6]">
+          <button className="w-[200px] h-14 rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center text-[#458FF6] justify-center hover:bg-[#458FF6] hover:text-white transition-colors duration-200">
+            <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal">
               Learn more
             </span>
           </button>

@@ -78,8 +78,8 @@ const Services = () => {
             ))}
           </div>
         </div>
-        <button className="w-[200px] h-14 rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center mx-auto mt-[72px] hover:bg-[#458FF6] hover:text-white transition-colors duration-200">
-          <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal text-[#458FF6]">Learn more</span>
+        <button className="w-[200px] h-14 rounded-[55px] border-[1.4px] border-[#458FF6] text-[#458FF6] flex items-center justify-center mx-auto mt-[72px] hover:bg-[#458FF6] hover:text-white transition-colors duration-200">
+          <span className="font-mulish font-bold text-lg leading-[60px] tracking-normal">Learn more</span>
         </button>
       </div>
     </section>
