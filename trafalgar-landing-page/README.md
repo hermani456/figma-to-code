@@ -2,7 +2,7 @@
 
 A clean implementation of the Trafalgar Landing Page design from Figma, built with modern web technologies.
 
-![Project Preview](/public/cover.png)
+![Project Preview](./public/cover.png)
 
 ## 🔗 Live Demo
 
