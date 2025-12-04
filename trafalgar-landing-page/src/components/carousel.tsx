@@ -8,7 +8,7 @@ const Carousel = () => {
           What our customer are saying
         </h2>
         <div className="w-14 h-0.5 bg-white mx-auto mt-[25px]"></div>
-        <div className="flex justify-center gap-[110px] mt-[77px]">
+        <div className="flex justify-center items-center gap-[110px] mt-[77px]">
           <div className="flex items-center space-x-[29px]">
             <div className="size-[141px] rounded-full border-8 border-white overflow-hidden">
               <img
