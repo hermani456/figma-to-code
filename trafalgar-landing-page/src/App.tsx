@@ -1,3 +1,4 @@
+import Articles from "./components/articles";
 import Carousel from "./components/carousel";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
@@ -14,6 +15,7 @@ const App = () => {
       <Section />
       <Section2 />
       <Carousel />
+      <Articles />
     </>
   );
 };
