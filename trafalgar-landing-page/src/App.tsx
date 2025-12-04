@@ -1,5 +1,6 @@
 import Articles from "./components/articles";
 import Carousel from "./components/carousel";
+import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Section from "./components/section";
@@ -16,6 +17,7 @@ const App = () => {
       <Section2 />
       <Carousel />
       <Articles />
+      <Footer />
     </>
   );
 };
