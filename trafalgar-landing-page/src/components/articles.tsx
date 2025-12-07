@@ -22,14 +22,18 @@ const Articles = () => {
   return (
     <section className="relative mb-[201px]">
       <img src="/vector2.png" alt="" className="absolute right-0 top-28 z-0" />
-      <img src="/element4.png" alt="" className="absolute -bottom-61 right-60" />
-      <div className="w-[1220px] mx-auto mt-[120px]">
+      <img
+        src="/element4.png"
+        alt=""
+        className="absolute -bottom-61 right-60"
+      />
+      <div className="max-w-[1220px] mx-auto mt-[120px]">
         <h2 className="font-mulish font-bold text-4xl leading-14 tracking-normal text-black text-center mt-16">
           Check out our latest article
         </h2>
         <div className="w-14 h-0.5 bg-black mx-auto mt-[25px]"></div>
         {/* cards */}
-        <div className="w-[1120px] mx-auto mt-20 flex justify-between relative z-10 bg-white">
+        <div className="max-w-[1120px] mx-auto mt-20 flex flex-wrap justify-center gap-10 xl:gap-0 xl:justify-between relative z-10">
           <img
             src="/element2.png"
             alt=""
@@ -38,7 +42,7 @@ const Articles = () => {
           {cardData.map((card, index) => (
             <div
               key={index}
-              className="w-[350px] h-[512px] rounded-[20px] shadow-[10px_40px_50px_0px_#E5E9F666] overflow-hidden relative z-10"
+              className="w-[350px] h-[512px] rounded-[20px] shadow-[10px_40px_50px_0px_#E5E9F666] overflow-hidden relative z-10 bg-white"
             >
               <img
                 src={card.imgSrc}

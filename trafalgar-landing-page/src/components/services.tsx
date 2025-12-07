@@ -44,7 +44,7 @@ const Services = () => {
             Our services
           </h2>
           <div className="w-14 h-0.5 rounded-[5px] bg-black mx-auto mt-[26px]"></div>
-          <p className="font-mulish font-light text-lg leading-[30px] tracking-normal text-center w-[952px] mx-auto mt-[33px] text-[#7D7987]">
+          <p className="font-mulish font-light text-lg leading-[30px] tracking-normal text-center max-w-[952px] mx-auto mt-[33px] text-[#7D7987] relative z-20">
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
@@ -52,7 +52,6 @@ const Services = () => {
           </p>
         </div>
         <div className="mt-20">
-          {/* Services cards would go here */}
           <img
             src="/vector.png"
             alt=""

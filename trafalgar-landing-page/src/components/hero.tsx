@@ -2,9 +2,9 @@ const Hero = () => {
   return (
     <section className="relative" aria-label="Hero section">
       <img src="/element.png" alt="" className="absolute top-0 left-0" />
-      <div className=" w-full max-w-[1217px] mx-auto px-6 mt-[84px]">
-        <div className="flex justify-between items-center">
-          <div className="w-[445px] h-[338px] font-mulish">
+      <div className="w-full max-w-[1217px] mx-auto px-6 lg:mt-[84px]">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-[109px]">
+          <div className="max-w-[445px] max-h-[338px] mt-16 lg:mt-[100px] font-mulish">
             <h1 className="text-5xl font-bold leading-14 tracking-normal">
               Virtual healthcare for you
             </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
               Consult today
             </a>
           </div>
-          <div className="w-[693px] h-[598px]">
+          <div className="max-w-[693px] max-h-[598px]">
             <img src="/hero.png" alt="Illustration of virtual healthcare" />
           </div>
         </div>

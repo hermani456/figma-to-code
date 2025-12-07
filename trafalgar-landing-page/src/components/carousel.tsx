@@ -1,16 +1,24 @@
 const Carousel = () => {
   return (
-    <div className="w-[1220px] h-[502px] flex flex-col items-center mx-auto mt-[251px] relative">
-      <img src="/element.png" alt="" className="absolute bottom-20 -left-3" />
-      <div className="w-[1120px] h-[425px] bg-[linear-gradient(208.18deg,#67C3F3_9.05%,#5A98F2_76.74%)] rounded-3xl relative mt-[15px]">
-        <img src="/element3.png" alt="" className="absolute -right-12 -top-4" />
-        <h2 className="font-mulish font-bold text-4xl leading-12 tracking-normal text-white text-center mt-16">
+    <div className="w-full max-w-[1220px] lg:h-[502px] flex flex-col items-center mx-auto mt-16 lg:mt-[251px] relative px-4 sm:px-6 lg:px-0">
+      <img
+        src="/element.png"
+        alt=""
+        className="hidden lg:block absolute bottom-20 -left-3"
+      />
+      <div className="w-full lg:w-[1120px] h-auto lg:h-[425px] bg-[linear-gradient(208.18deg,#67C3F3_9.05%,#5A98F2_76.74%)] rounded-3xl relative mt-[15px] p-8 lg:p-0">
+        <img
+          src="/element3.png"
+          alt=""
+          className="hidden lg:block absolute -right-12 -top-4"
+        />
+        <h2 className="font-mulish font-bold text-2xl lg:text-4xl leading-tight lg:leading-12 tracking-normal text-white text-center lg:mt-16">
           What our customer are saying
         </h2>
-        <div className="w-14 h-0.5 bg-white mx-auto mt-[25px]"></div>
-        <div className="flex justify-center items-center gap-[110px] mt-[77px]">
-          <div className="flex items-center space-x-[29px]">
-            <div className="size-[141px] rounded-full border-8 border-white overflow-hidden">
+        <div className="w-14 h-0.5 bg-white mx-auto mt-6 lg:mt-[25px]"></div>
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-[110px] mt-8 lg:mt-[77px]">
+          <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-[29px] text-center lg:text-left">
+            <div className="w-24 h-24 lg:size-[141px] rounded-full border-[6px] lg:border-8 border-white overflow-hidden shrink-0">
               <img
                 src="/dude.png"
                 alt=""
@@ -26,8 +34,8 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="w-[420px] h-[120px] ">
-            <p className="font-mulish font-normal text-white text-[19px] leading-[30px] tracking-normal">
+          <div className="w-full lg:w-[420px] h-auto lg:h-[120px] text-center lg:text-left">
+            <p className="font-mulish font-normal text-white text-base lg:text-[19px] leading-relaxed lg:leading-[30px] tracking-normal">
               “Our dedicated patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
               or administrative hassle) and securely”
@@ -35,8 +43,9 @@ const Carousel = () => {
           </div>
         </div>
       </div>
+
       {/* controls */}
-      <div className="flex mt-auto items-center w-[336px] mx-auto justify-between">
+      <div className="flex mt-8 lg:mt-auto items-center w-full max-w-[336px] mx-auto justify-between">
         {/* left arrow */}
         <div>
           <svg

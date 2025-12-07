@@ -1,14 +1,18 @@
 const Section = () => {
   return (
-    <section aria-label="Section component" className="mt-[220px]">
-      <div className="w-[1273px] h-[477px] mx-auto flex items-center justify-between">
-        <img src="/ilustration.png" alt="" className="w-[650px] h-[477px]" />
-        <div className="w-[486px] h-[388px]">
+    <section aria-label="Section component" className="mt-[220px] p-2 lg:p-0">
+      <div className="max-w-[1273px] min-h-[477px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+        <img
+          src="/ilustration.png"
+          alt=""
+          className="w-[80%] lg:max-w-[650px] lg:max-h-[477px]"
+        />
+        <div className="max-w-[486px] min-h-[388px]">
           <h2 className="font-mulish font-bold text-4xl leading-14 tracking-normal mb-[26px]">
             Leading healthcare providers
           </h2>
           <div className="w-14 h-0.5 bg-black mb-[31px]"></div>
-          <p className="font-mulish font-light text-lg leading-[30px] tracking-normal w-[410px] mb-[37px] text-[#7D7987]">
+          <p className="font-mulish font-light text-lg leading-[30px] tracking-normal max-w-[410px] mb-[37px] text-[#7D7987]">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
